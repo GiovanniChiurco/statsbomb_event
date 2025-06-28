@@ -1,13 +1,16 @@
 [project]
-name = "python-repo-template"
+name = "statsbomb_event"
 version = "0.0.1"
-description = "A template for Python projects"
+description = "A project that manipulate Statsbomb event data"
 readme = "README.md"
 license = { text = "MIT" }
-authors = [ { name = "Giovanni Giacometti", email = "giovanni.giacometti5@gmail.com" } ]
+authors = [ { name = "Giovanni Chiurco", email = "giochi99@hotmail.it" } ]
 requires-python = ">=3.12"
 dependencies = [
+    "ipykernel>=6.29.5",
     "loguru>=0.7.3",
+    "pyarrow>=20.0.0",
+    "statsbombpy>=1.16.0",
 ]
 
 [dependency-groups]
