@@ -289,3 +289,5 @@ pip-selfcheck.json
 uv.lock
 
 data/
+
+.github/
